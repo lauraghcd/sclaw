@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: api-proxy
+    runtime: node
+    region: oregon
+    rootDir: render-proxy
+    plan: free
+    buildCommand: ""
+    startCommand: node index.js
+    envVars: []
